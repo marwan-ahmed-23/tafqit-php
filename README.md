@@ -11,15 +11,6 @@
 ### Installation
 Simply include the `Tafqit.php` file in your project.
 
-
-
-### Example
-```php
-require_once 'src/Tafqit.php';
-
-$tafqit = new Tafqit();
-echo $tafqit->numberToText("٢٣٤٥", 'ar'); // Outputs: ألفان وثلاثمائة وخمسة وأربعون
-
 ## Directory Structure
 tafqit-php/
 
@@ -38,3 +29,12 @@ tafqit-php/
 ├── .gitignore
 
 └── README.md
+
+### Example
+```php
+require_once 'src/Tafqit.php';
+
+$tafqit = new Tafqit();
+echo $tafqit->numberToText("٢٣٤٥", 'ar'); // Outputs: ألفان وثلاثمائة وخمسة وأربعون
+
+

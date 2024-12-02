@@ -8,9 +8,6 @@
 
 ## Usage
 
-### Installation
-Simply include the `Tafqit.php` file in your project.
-
 ## Directory Structure
 tafqit-php/
 
@@ -29,6 +26,9 @@ tafqit-php/
 ├── .gitignore
 
 └── README.md
+
+### Installation
+Simply include the `Tafqit.php` file in your project.
 
 ### Example
 ```php

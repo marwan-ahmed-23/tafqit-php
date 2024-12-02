@@ -1,6 +1,8 @@
-# Tafqit (PHP)
+# Tafqit (PHP): Number to Text Conversion for Multiple Languages
 
-Tafqit-PHP is a PHP library designed to convert numbers into readable text in multiple languages, including Arabic and English. This lightweight and modular library can be extended to support additional languages.
+Tafqit-PHP is a PHP-based service designed to convert numerical values into readable text. Supporting both Arabic and English, this lightweight and modular solution can be easily extended to accommodate additional languages.
+
+---
 
 ## Features
 
@@ -15,13 +17,6 @@ Tafqit-PHP is a PHP library designed to convert numbers into readable text in mu
 - Multibyte string extension (enabled by default in PHP).
 
 ## Installation
-
-### Using Composer (Recommended)
-```bash
-composer require your-username/tafqit-php
-```
-
-## Manual Installation
 
 1. Clone or download the repository.
 2. Include the `src/Tafqit.php` file in your project:
@@ -54,7 +49,7 @@ echo $tafqit->numberToText("2345", 'en'); // Outputs: Two thousand three hundred
 
 ## Currency Example
 
-You can customize the library to include currency and subunit formatting for specific languages.
+You can customize it to include currency and subunit formatting for specific languages.
 
 ## Folder Structure
 

@@ -23,12 +23,12 @@ composer require your-username/tafqit-php
 
 ## Manual Installation
 
-1- Clone or download the repository.
-2- Include the `src/Tafqit.php` file in your project:
+- Clone or download the repository.
+- Include the `src/Tafqit.php` file in your project:
   ```bash
   require_once 'path-to-src/Tafqit.php';
   ```
-3- 
+
 
 
 

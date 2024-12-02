@@ -32,73 +32,71 @@ composer require your-username/tafqit-php
 
 ## Usage
 
+Here's an example of how to use `Tafqit-PHP` to convert numbers to text:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Tafqit-PHP
-
-**Tafqit-PHP** is a PHP library for converting numbers into text in multiple languages, including Arabic and English. 
-
-## Features
-- Converts numbers (including Arabic numerals) to text.
-- Supports multiple locales using `NumberFormatter`.
-
-## Usage
-
-## Folder Structure
-tafqit-php/
-
-├── src/
-
-│   └── Tafqit.php
-
-├── examples/
-
-│   └── example.php
-
-├── tests/
-
-│   └── TafqitTest.php
-
-├── .gitignore
-
-└── README.md
-
-### Installation
-Simply include the `Tafqit.php` file in your project.
-
-### Example
-```php
+```bash
+<?php
 require_once 'src/Tafqit.php';
 
 $tafqit = new Tafqit();
 echo $tafqit->numberToText("٢٣٤٥", 'ar'); // Outputs: ألفان وثلاثمائة وخمسة وأربعون
+```
 
+### Usage with English Numbers
 
+```bash
+<?php
+require_once 'src/Tafqit.php';
+
+$tafqit = new Tafqit();
+echo $tafqit->numberToText("2345", 'en'); // Outputs: Two thousand three hundred forty-five
+```
+
+## Currency Example
+
+You can customize the library to include currency and subunit formatting for specific languages.
+
+## Folder Structure
+
+tafqit-php/
+├── src/
+│   └── Tafqit.php
+├── examples/
+│   └── example.php
+├── tests/
+│   └── TafqitTest.php
+├── .gitignore
+└── README.md
+
+## Tests
+
+Run the tests using PHPUnit:
+
+```bash
+phpunit tests/TafqitTest.php
+```
+
+## Contributing
+
+We welcome contributions! Follow these steps to contribute:
+
+- Fork the repository.
+- Create a new branch:
+  
+  ```bash
+  git checkout -b feature-branch
+  ```
+  
+- Make your changes and commit them:
+  
+  ```bash
+  git commit -m "Add new feature"
+  ```
+
+- Push to your branch:
+
+  ```bash
+  git push origin feature-branch
+  ```
+
+- Open a Pull Request.

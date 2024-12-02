@@ -23,8 +23,8 @@ composer require your-username/tafqit-php
 
 ## Manual Installation
 
-- Clone or download the repository.
-- Include the `src/Tafqit.php` file in your project:
+1. Clone or download the repository.
+2. Include the `src/Tafqit.php` file in your project:
   
   ```bash
   require_once 'path-to-src/Tafqit.php';
@@ -80,23 +80,23 @@ phpunit tests/TafqitTest.php
 
 We welcome contributions! Follow these steps to contribute:
 
-- Fork the repository.
-- Create a new branch:
+1. Fork the repository.
+2. Create a new branch:
   
   ```bash
   git checkout -b feature-branch
   ```
   
-- Make your changes and commit them:
+3. Make your changes and commit them:
   
   ```bash
   git commit -m "Add new feature"
   ```
 
-- Push to your branch:
+4. Push to your branch:
 
   ```bash
   git push origin feature-branch
   ```
 
-- Open a Pull Request.
+5. Open a Pull Request.

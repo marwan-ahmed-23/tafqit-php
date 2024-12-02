@@ -25,10 +25,12 @@ composer require your-username/tafqit-php
 
 - Clone or download the repository.
 - Include the `src/Tafqit.php` file in your project:
+  
   ```bash
   require_once 'path-to-src/Tafqit.php';
   ```
 
+## Usage
 
 
 

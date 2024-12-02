@@ -8,7 +8,7 @@
 
 ## Usage
 
-## Directory Structure
+## Folder Structure
 tafqit-php/
 
 ├── src/

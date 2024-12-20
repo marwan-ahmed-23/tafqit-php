@@ -53,15 +53,15 @@ You can customize it to include currency and subunit formatting for specific lan
 
 ## Folder Structure
 
-tafqit-php/
-├── src/
-│   └── Tafqit.php
-├── examples/
-│   └── example.php
-├── tests/
-│   └── TafqitTest.php
-├── .gitignore
-└── README.md
+tafqit-php/                                                                              
+├── src/                                                                              
+│   └── Tafqit.php                                                                          
+├── examples/                                                                        
+│   └── example.php                                                                      
+├── tests/                                                                      
+│   └── TafqitTest.php                                                              
+├── .gitignore                                                                
+└── README.md                                                                  
 
 ## Tests
 

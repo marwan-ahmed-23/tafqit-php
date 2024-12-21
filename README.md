@@ -52,16 +52,17 @@ echo $tafqit->numberToText("2345", 'en'); // Outputs: Two thousand three hundred
 You can customize it to include currency and subunit formatting for specific languages.
 
 ## Folder Structure
-
-tafqit-php/                                                                              
-├── src/                                                                              
-│   └── Tafqit.php                                                                          
-├── examples/                                                                        
-│   └── example.php                                                                      
-├── tests/                                                                      
-│   └── TafqitTest.php                                                              
-├── .gitignore                                                                
-└── README.md                                                                  
+```plaintext
+tafqit-php/
+├── src/
+│   └── Tafqit.php
+├── examples/
+│   └── example.php
+├── tests/
+│   └── TafqitTest.php
+├── .gitignore
+└── README.md
+```
 
 ## Tests
 

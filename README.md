@@ -60,6 +60,7 @@ tafqit-php/
 │   └── example.php
 ├── tests/
 │   └── TafqitTest.php
+├── LICENSE
 ├── .gitignore
 └── README.md
 ```

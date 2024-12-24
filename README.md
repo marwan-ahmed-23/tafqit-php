@@ -4,7 +4,7 @@ Tafqit-PHP is a PHP-based service designed to convert numerical values into read
 
 ---
 
-## Features
+## 🚀 Features
 
 - Converts numbers into text in Arabic and English.
 - Handles large numbers with precision.
@@ -16,7 +16,7 @@ Tafqit-PHP is a PHP-based service designed to convert numerical values into read
 - PHP 7.0 or higher.
 - Multibyte string extension (enabled by default in PHP).
 
-## Installation
+## 🔧 Installation
 
 1. Clone or download the repository.
 2. Include the `src/Tafqit.php` file in your project:
@@ -25,7 +25,7 @@ Tafqit-PHP is a PHP-based service designed to convert numerical values into read
     require_once 'path-to-src/Tafqit.php';
     ```
 
-## Usage
+## 📖 Usage
 
 Here's an example of how to use `Tafqit-PHP` to convert numbers to text:
 
@@ -51,7 +51,7 @@ echo $tafqit->numberToText("2345", 'en'); // Outputs: Two thousand three hundred
 
 You can customize it to include currency and subunit formatting for specific languages.
 
-## Folder Structure
+## 📂 Folder Structure
 ```plaintext
 tafqit-php/
 ├── src/
@@ -72,7 +72,7 @@ Run the tests using PHPUnit:
 phpunit tests/TafqitTest.php
 ```
 
-## Contributing
+## 🛠️ Contributing
 
 We welcome contributions! Follow these steps to contribute:
 
@@ -96,3 +96,6 @@ We welcome contributions! Follow these steps to contribute:
     ```
 
 5. Open a Pull Request.
+
+## 🌟 Show Your Support
+If you found this project helpful, please consider giving it a ⭐ on GitHub. Your support means the world to us!
